@@ -1,38 +1,43 @@
 * {
-	margin:  0px;
-	padding:  0px;
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 /* adjusting fonts */
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
-	transition: background 500ms ease;
+  font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
+  transition: background 500ms ease;
 }
 
-p, li {
-	font-size:  22px;
-	line-height: 30px;
+p,
+li {
+  font-size: 15px;
+  line-height: 20px;
 }
 
 /* adjusting spacing */
 
 #left-column {
-	padding: 20px;
+  padding: 20px;
 }
 
-h1, p {
-	margin-bottom:  20px;
+h1,
+p {
+  margin-bottom: 20px;
 }
 
-ul, ol {
-	margin-left: 20px;
+ul,
+ol {
+  margin-left: 20px;
 }
 
 img {
-	max-width: 100%;
-	height:  auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /* uncomment the code below to set the grid */
