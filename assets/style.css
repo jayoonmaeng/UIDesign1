@@ -9,14 +9,13 @@
 /* adjusting fonts */
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
-  transition: background 500ms ease;
+  font-family: "Courier New", Courier, monospace;
 }
 
 p,
 li {
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 /* adjusting spacing */
@@ -25,8 +24,7 @@ li {
   padding: 20px;
 }
 
-h1,
-p {
+div {
   margin-bottom: 20px;
 }
 
