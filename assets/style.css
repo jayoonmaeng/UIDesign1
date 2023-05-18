@@ -5,59 +5,37 @@
   list-style-type: none;
   text-decoration: none;
 }
+body {
+  padding: 50px;
+  margin: 0 auto;
+}
 
 /* adjusting fonts */
 
-body {
-  font-family: "Courier New", Courier, monospace;
+@font-face {
+  font-family: Arial, Helvetica, sans-serif;
 }
-
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(252, 240, 128);
+  color: rgb(55, 154, 230);
+}
 p,
 li {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 15px;
+  line-height: 20px;
+}
+a,
+a:visited {
+  transition: all 500ms ease;
+  color: rgb(11, 110, 77);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a:hover {
+  font-variation-settings: "wght" 700, "slnt" -12;
 }
 
-/* adjusting spacing */
-
-#left-column {
-  padding: 20px;
+#grid {
+  margin: 0 auto;
+  display: flex;
 }
-
-div {
-  margin-bottom: 20px;
-}
-
-ul,
-ol {
-  margin-left: 20px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* uncomment the code below to set the grid */
-
-/*#grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-body {
-	overflow: hidden;
-}
-
-.scroll {
-	padding:  20px;
-	overflow: scroll;
-	height: 100vh;
-}
-
-#left-column {
-}
-
-#right-column {
-	background: #333;
-}*/

@@ -1,0 +1,62 @@
+h1 {
+  color: rgb(13, 172, 13);
+  text-shadow: 5px 6px 4px rgb(251, 134, 31);
+}
+body {
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
+  color: rgb(255, 255, 255);
+
+  background: linear-gradient(#ecd487, #08964f);
+  /* background-image: url(/img/IMG_0761.png);
+  background-size: cover;
+  background-repeat: repeat-y; */
+
+  cursor: url(/img/Group\ 1leaf.svg), pointer;
+}
+li {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.stuff {
+  width: 80vw;
+}
+
+.hey {
+  text-decoration: none;
+  color: #ecd487;
+}
+
+p:hover {
+  background-color: #ecd487;
+  color: #08964f;
+  font-weight: 3px;
+}
+ul:hover {
+  color: orange;
+  background-color: teal;
+}
+
+.allimg {
+  width: 100%vw;
+  margin: 0 auto;
+  display: flex;
+}
+
+.detail {
+  width: 250px;
+  rotate: 90deg;
+}
+.dtext {
+  width: 200px;
+  height: 300px;
+  overflow: scroll;
+}
+
+.content {
+  font-size: 16px;
+  font-weight: bolder;
+}
