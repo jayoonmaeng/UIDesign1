@@ -1,0 +1,158 @@
+body {
+  background: #cccccc;
+}
+.size {
+  width: 300px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sizewindow {
+  padding: 0;
+  height: 300px;
+}
+
+#align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+#stage {
+  width: 900px;
+  height: 556px;
+  margin: auto;
+  background: white;
+  position: absolute;
+}
+
+#vase {
+  width: 150px;
+  height: 146px;
+  background: radial-gradient(white, rgb(213, 213, 213));
+  border-radius: 100%;
+  position: absolute;
+  top: 180px;
+  left: 300px;
+}
+
+#vasemouth {
+  width: 50px;
+  height: 50px;
+  background: radial-gradient(white, rgb(213, 213, 213));
+  border-radius: 100%;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+#bookUpside1 {
+  width: 250px;
+  height: 40px;
+  background: yellow;
+
+  position: absolute;
+  top: 120px;
+  left: 316px;
+  transform: skewX(80deg);
+}
+#bookUpside2 {
+  clip-path: polygon(1% 33%, 71% 31%, 100% 36%, 24% 38%);
+  width: 350px;
+  height: 350px;
+  background: yellow;
+
+  position: absolute;
+  top: 120px;
+  left: 220px;
+}
+
+#bookside1 {
+  width: 200px;
+  height: 15px;
+  background: rgb(197, 174, 0);
+
+  position: absolute;
+  top: 315px;
+  left: 425px;
+  transform: skewY(353deg);
+}
+#bookside2 {
+  width: 260px;
+  height: 30px;
+  background: rgb(233, 209, 25);
+
+  position: absolute;
+  top: 345px;
+  left: 290px;
+  transform: skewY(353deg);
+}
+#bookside3 {
+  width: 300px;
+  height: 70px;
+  background: rgb(49, 197, 15);
+
+  position: absolute;
+  top: 375px;
+  left: 300px;
+  transform: skewY(353deg);
+}
+
+#bookleft1 {
+  width: 100px;
+  height: 30px;
+  background: rgb(236, 232, 204);
+
+  position: absolute;
+  top: 340px;
+  left: 190px;
+  transform: skewY(21deg);
+}
+#bookleft2 {
+  width: 100px;
+  height: 70px;
+  background: rgb(200, 239, 203);
+
+  position: absolute;
+  top: 375px;
+  left: 200px;
+  transform: skewY(21deg);
+}
+
+#teapot {
+  position: absolute;
+  width: 200px;
+  height: 240px;
+  background: radial-gradient(white, gray);
+  border-radius: 70px;
+
+  top: 260px;
+  left: 558px;
+
+  /* uncomment to add keyframe animation */
+  /* animation: spin 2s infinite; */
+}
+
+#apple {
+  clip-path: polygon(
+    49% 9%,
+    73% 6%,
+    98% 21%,
+    100% 56%,
+    87% 88%,
+    50% 96%,
+    12% 89%,
+    0 55%,
+    3% 20%,
+    25% 6%
+  );
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(red, yellowgreen);
+  border-radius: 200px;
+  top: 363px;
+  left: 463px;
+  position: absolute;
+}
