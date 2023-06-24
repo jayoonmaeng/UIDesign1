@@ -8,6 +8,8 @@ body {
   margin: 0 auto;
   background-color: #fff48d;
   color: black;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 #heading {
   margin: auto;
@@ -37,7 +39,7 @@ input {
   width: 50%;
 }
 .effect:focus {
-  background-color: rgb(255, 81, 191);
+  background-color: cornflowerblue;
 }
 
 #mainbox {
@@ -61,14 +63,16 @@ input {
 #grid .cell {
   /* border: 1px solid orangered; */
 
-  width: 60vw;
-  height: 60px;
+  width: 50vw;
+  height: 150px;
   margin: 5px;
 
   display: flex;
   justify-content: center;
 
   align-items: center;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-family: "Gasoek One", sans-serif; */
 }
 
 #script {
@@ -78,14 +82,22 @@ input {
 }
 
 button {
-  width: 200px;
-  height: 50px;
-  border-radius: 70%;
-  background-color: black;
-  border: 5px solid #4ba1df;
-  color: #fff48d;
-  font-weight: bolder;
+  width: 230px;
+  height: 80px;
+  border-radius: 20px;
+  background-color: #ff62d3;
+  /* border: 3px solid black; */
+  color: black;
+
   cursor: grab;
+  font-family: "CWDangamAsac-Bold";
+  font-size: 1.8rem;
+}
+
+button:hover {
+  width: 250px;
+  height: 100px;
+  background-color: red;
 }
 
 @media only screen and (max-device-width: 700px) {
